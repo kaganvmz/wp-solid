@@ -1,0 +1,99 @@
+{
+  "groups": "portfolio",
+  "template": "template.hbs",
+  "settings": [
+    {
+      "name": "block_id",
+      "label": "Block's id",
+      "type": "text"
+    },
+    {
+      "name": "header",
+      "label": "Header",
+      "type": "text",
+      "placeholder": "Header"
+    },
+    {
+      "name": "works",
+      "label": "Portfolio works",
+      "type": "accordion",
+      "viewType": "flip",
+      "settings": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Title"
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "type": "image"
+        },
+        {
+          "name": "link",
+          "label": "Link",
+          "type": "text",
+          "placeholder": "Link"
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "block_id": "portfoliowrap",
+    "header": "LATEST WORKS",
+    "works": [
+      {
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_01.jpg",
+        "link": "#",
+        "order": 1
+      },{
+        "title": "A Web Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_02.jpg",
+        "link": "#",
+        "order": 2
+      },{
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_03.jpg",
+        "link": "#",
+        "order": 3
+      },{
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_04.jpg",
+        "link": "#",
+        "order": 4
+      },{
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_05.jpg",
+        "link": "#",
+        "order": 5
+      },{
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_06.jpg",
+        "link": "#",
+        "order": 6
+      },{
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_07.jpg",
+        "link": "#",
+        "order": 7
+      },{
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_08.jpg",
+        "link": "#",
+        "order": 8
+      },{
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_09.jpg",
+        "link": "#",
+        "order": 9
+      },{
+        "title": "A Graphic Design Item",
+        "image": "%block_url(medialib)%/assets/img/portfolio_10.jpg",
+        "link": "#",
+        "order": 10
+      }
+    ]
+  }
+}

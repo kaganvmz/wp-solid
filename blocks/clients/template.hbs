@@ -1,0 +1,12 @@
+<div id="{{block_id}}">
+	 <div class="container">
+	 	<div class="row centered">
+		 	<h3>{{header}}</h3>
+		 	{{#each_with_sort clients "order"}}
+			 	<div class="col-lg-3 col-md-3 col-sm-3">
+			 		<img src="{{img}}" class="img-responsive" alt="{{title}}">
+			 	</div>
+		 	{{/each_with_sort}}
+	 	</div><!--/row -->
+	 </div><!--/container -->
+</div><!--/cwrap -->

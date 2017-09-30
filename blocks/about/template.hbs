@@ -1,0 +1,47 @@
+ <div class="container mtb">
+ 	<div class="row">
+ 		<div class="col-lg-4 col-lg-offset-1">
+	 		<h4>{{header1}}</h4>
+	 		{{{text}}}
+				<p><br/><a href="{{btn_link}}" class="btn btn-theme">{{btn_text}}</a></p>
+ 		</div>
+ 		
+ 		<div class="col-lg-3">
+ 			<h4>{{header2}}</h4>
+ 			<div class="hline"></div>
+ 			{{#each_with_sort faqs "order"}}
+ 				<p><a href="{{faq_link}}">{{title}}</a></p>
+ 			{{/each_with_sort}}
+ 		</div>
+ 		
+ 		<div class="col-lg-3">
+ 			<h4>{{header3}}</h4>
+ 			<div class="hline"></div>
+ 			<div class="blog-list-{{id}}"></div>
+ 		</div>
+ 		
+ 	</div><!--/row -->
+ </div><!--/container -->
+ <script type="text/javascript">
+ 	jQuery(document).ready(function ($) {
+ 		$.ajax({
+ 			url: "/wp-admin/admin-ajax.php",
+ 			type: "POST",
+ 			dataType: 'json',
+ 			data: ({
+ 				action: "solid_blog_load",
+ 				per_page: 5
+ 			}),
+ 			success: function(res) {
+ 				var html = "";
+ 				for (var i = 0; i < res.data.length; i++) {
+ 					html += '<p><a href="'+res.data[i].post_url+'">'+res.data[i].post_title+'</a></p>';
+ 				}
+ 				$(".blog-list-{{id}}").html(html);
+ 			},
+ 			error: function(error) {
+ 				$(".blog-list-{{id}}").html(error);
+ 			}
+ 		});
+ 	});
+ </script>>

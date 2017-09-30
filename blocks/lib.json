@@ -1,0 +1,66 @@
+{
+  "name": "Solid",
+  "blockTemplateAdapter": "underscore",
+  "groups": [
+    {
+      "id": "main",
+      "label": "Main Blocks",
+      "position": 0
+    },
+    {
+      "id": "iconbox",
+      "label": "Icon box",
+      "position": 1
+    },
+    {
+      "id": "portfolio",
+      "label": "Portfolio",
+      "position": 2
+    },
+    {
+      "id": "testimonial",
+      "label": "Testimonial",
+      "position": 3
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "position": 4
+    },
+    {
+      "id": "our_clients",
+      "label": "Clients",
+      "position": 5
+    }
+  ],
+  "blocks": [
+    {
+      "name": "mainblock",
+      "url": "%theme_url%/blocks/mainblock/"
+    },
+    {
+      "name": "iconbox",
+      "url": "%theme_url%/blocks/iconbox/"
+    },
+    {
+      "name": "portfolio",
+      "url": "%theme_url%/blocks/portfolio/"
+    },
+    {
+      "name": "medialib",
+      "url": "%theme_url%/blocks/medialib/"
+    },
+    {
+      "name": "testimonial",
+      "url": "%theme_url%/blocks/testimonial/"
+    },
+    {
+      "name": "about",
+      "url": "%theme_url%/blocks/about/"
+    },
+     {
+      "name": "clients",
+      "url": "%theme_url%/blocks/clients/"
+    }
+  ]
+}

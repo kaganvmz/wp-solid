@@ -1,0 +1,62 @@
+{
+  "groups": "our_clients",
+  "template": "template.hbs",
+  "settings": [
+    {
+      "name": "block_id",
+      "label": "Block's id",
+      "type": "text"
+    },
+    {
+      "name": "header",
+      "label": "Header",
+      "type": "text",
+      "placeholder": "Header"
+    },
+    {
+      "name": "clients",
+      "label": "Clients",
+      "type": "accordion",
+      "viewType": "expand",
+      "settings": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Title"
+        },
+        {
+          "name": "img",
+          "label": "Logo",
+          "type": "image"
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "block_id": "cwrap",
+    "header": "OUR CLIENTS",
+    "clients": [
+      {
+        "title": "Handsomely 1",
+        "img": "%block_url(medialib)%/assets/img/client01.png",
+        "order": 1
+      },
+      {
+        "title": "Retina 2",
+        "img": "%block_url(medialib)%/assets/img/client02.png",
+        "order": 2
+      },
+      {
+        "title": "Handsomely 3",
+        "img": "%block_url(medialib)%/assets/img/client03.png",
+        "order": 3
+      },
+      {
+        "title": "Handsomely 4",
+        "img": "%block_url(medialib)%/assets/img/client04.png",
+        "order": 4
+      }
+    ]
+  }
+}

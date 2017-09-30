@@ -1,0 +1,74 @@
+{
+	"assets": [{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_01.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_02.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_03.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_04.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_05.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_06.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_07.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_08.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_09.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/portfolio_10.jpg",
+		"tags": ["bg", "portfolio"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/t-back.jpg",
+		"tags": ["city"],
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/client01.png",
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/client02.png",
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/client03.png",
+		"pack": "solid"
+	},{
+		"type": "image",
+		"src": "%block_url%/assets/img/client04.png",
+		"pack": "solid"
+	}]
+}

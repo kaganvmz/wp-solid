@@ -1,0 +1,14 @@
+<div id="{{block_id}}">
+	<div class="container">
+		<div class="row centered">
+		{{#each_with_sort boxes "order"}}
+				<div class="col-md-4">
+					<i class="{{icon}}"></i>
+					<h4>{{title}}</h4>
+					{{{text}}}
+					<p><br/><a href="{{btn_link}}" class="btn btn-theme">{{btn_text}}</a></p>
+				</div>
+			{{/each_with_sort}}
+		</div>
+	</div><!--/container -->
+</div><!--/service -->

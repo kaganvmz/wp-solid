@@ -1,0 +1,97 @@
+{
+  "groups": "about",
+  "template": "template.hbs",
+  "settings": [
+    {
+      "name": "block_id",
+      "label": "Block's id",
+      "type": "text"
+    },
+    {
+      "name": "header1",
+      "label": "Header",
+      "type": "text",
+      "placeholder": "Header"
+    },
+    {
+      "name": "text",
+      "label": "Text",
+      "type": "textarea",
+      "placeholder": "text"
+    },
+    {
+      "name": "btn_text",
+      "label": "Button text",
+      "type": "text",
+      "placeholder": "Text"
+    },
+    {
+      "name": "btn_link",
+      "label": "Button link",
+      "type": "text",
+      "placeholder": "Link"
+    },
+    {
+      "name": "header2",
+      "label": "Header",
+      "type": "text",
+      "placeholder": "Header"
+    },
+    {
+      "name": "faqs",
+      "label": "Frequently Asked",
+      "type": "accordion",
+      "viewType": "expand",
+      "settings": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "Title"
+        },
+        {
+          "name": "faq_link",
+          "label": "Link",
+          "type": "text",
+          "placeholder": "Link"
+        }
+      ]
+    },
+    {
+      "name": "header3",
+      "label": "Header",
+      "type": "text",
+      "placeholder": "Header"
+    }
+  ],
+  "defaults": {
+    "block_id": "",
+    "header1": "More About Our Agency.",
+    "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>",
+    "btn_text": "More Info",
+    "btn_link": "#",
+    "header2": "Frequently Asked",
+    "faqs": [{
+    	"title": "How cool is this theme?",
+    	"faq_link": "#",
+    	"order": 1
+    },{
+    	"title": "Need a nice good-looking site?",
+    	"faq_link": "#",
+    	"order": 2
+    },{
+    	"title": "Is this theme retina ready?",
+    	"faq_link": "#",
+    	"order": 3
+    },{
+    	"title": "Which version of Font Awesome uses?",
+    	"faq_link": "#",
+    	"order": 4
+    },{
+    	"title": "Free support is integrated?",
+    	"faq_link": "#",
+    	"order": 5
+    }],
+    "header3": "Latest Posts"
+  }
+}
